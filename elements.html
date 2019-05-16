@@ -1,0 +1,49 @@
+---
+layout: page
+---
+<!-- a single image with a heading and description box -->
+  <section class="page-section">
+    <div class="container">
+      <div class="product-item">
+        <div class="product-item-title d-flex">
+          <div class="bg-faded p-5 d-flex mr-auto rounded"><!-- change to ml-auto to push right -->
+            <h2 class="section-heading mb-0">
+              <span class="section-heading-upper">The upper heading</span>
+              <span class="section-heading-lower">The main heading</span>
+            </h2>
+          </div>
+        </div>
+        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="{{ 'img/products-01.jpg' | absolute_url }}" alt="Eight cups of espresso arrange in a circle on a small wooden table. Viewed from above.">
+        <div class="product-item-description d-flex mr-auto">
+          <div class="bg-faded p-5 rounded">
+            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Mercedem aut nummos unde unde extricat, amaras. Quis aute iure reprehenderit in voluptate velit esse.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- a slideshow with a heading and description box -->
+  <section class="page-section">
+    <div class="container">
+      <div class="product-item">
+        <div class="product-item-title d-flex">
+          <div class="bg-faded p-5 d-flex mr-auto rounded"><!-- change to ml-auto to push right -->
+            <h2 class="section-heading mb-0">
+              <span class="section-heading-upper">reveal.js</span>
+              <span class="section-heading-lower">Imagine a slideshow here</span>
+            </h2>
+          </div>
+        </div>
+        <!-- the image that once was here: <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="{{ 'img/products-01.jpg' | absolute_url }}" alt="Eight cups of espresso arrange in a circle on a small wooden table. Viewed from above."> -->
+          <!-- reveal slideshow -->
+            <embed src="http://uclalibrary.github.io/slides/tutorial-a-generic-tutorial.html#/" class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" style="min-width: 80%; min-height: 600px;" >
+          <!-- end reveal slideshow -->
+        <div class="product-item-description d-flex mr-auto">
+          <div class="bg-faded p-5 rounded">
+            <p class="mb-0">A responsive and accessible slideshow might be an interesting way to share a bunch of examples. Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Mercedem aut nummos unde unde extricat, amaras. Quis aute iure reprehenderit in voluptate velit esse.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
