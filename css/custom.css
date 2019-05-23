@@ -1,0 +1,9 @@
+.dnote {
+    font-style: italic;
+    border-style: dotted;
+    border-color: darkgrey;
+    border-width: thin;
+    border-radius: 2px;
+    color: grey;
+    background-color: moccasin;
+}

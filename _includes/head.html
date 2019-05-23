@@ -43,5 +43,13 @@
     
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+    
+    
+<!-- todo:: figure out how to initialize tooltips - this doesn't work -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
 
 </head>
