@@ -1,7 +1,9 @@
 ---
 layout: page
 ---
+<!-- ****** -->
 <!-- Explain - the introductory/overview box -->
+<!-- ****** -->
   <section class="page-section">
     <div class="container">
       <div class="product-item">
@@ -83,8 +85,9 @@ layout: page
     </div>
   </section>
 <!-- *** now this section is closed *** -->
-
+<!-- ****** -->
 <!-- Demonstrate provide at least two annotated examples - can be slideshow, h5p, ... -->
+<!-- ****** -->
   <section class="page-section">
     <div class="container">
       <div class="product-item">
@@ -92,14 +95,14 @@ layout: page
           <div class="bg-faded p-5 d-flex mr-auto rounded"><!-- change to ml-auto to push right -->
             <h2 class="section-heading mb-0">
               <span class="section-heading-upper">Demonstrate</span>
-              <span class="section-heading-lower">A few annotated examples of successful work</span>
+              <span class="section-heading-lower">Annotated examples</span>
             </h2>
           </div>
         </div>
           <!-- collapsible -->
           <!-- todo:: explore whether a tabbed card might be better here -->
           <div class="row justify-content-center">
-              <div class="col col-sm-12 col-md-10">
+              <div class="col col-sm-12 col-md-11 col-lg-10">
             <div class="accordion mt-5 mb-5" id="accordionExample">
                 <div class="card">
                     <div class="card-header" id="headingOne">
@@ -110,6 +113,7 @@ layout: page
                   </h2> </div>
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                         <div class="card-body">
+                            <!-- h5p embed -->
                             <div class="row justify-content-center">
                                 <div class="col col-sm-12 col-md-10 col-lg-8 col-xl-6">
                                     <iframe src="https://ccle.ucla.edu/mod/hvp/embed.php?id=2472053" width="100%" frameborder="1" allowfullscreen="allowfullscreen"></iframe><script src="https://ccle.ucla.edu/mod/hvp/library/js/h5p-resizer.js" charset="UTF-8"></script>
@@ -140,12 +144,10 @@ layout: page
                         <div class="card-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </div>
                     </div>
                 </div>
-            </div>
+            </div> <!-- /accordion -->
             </div>
           </div>
-
           <!-- /collapsible -->
-          
         <div class="product-item-description d-flex mr-auto">
           <div class="bg-faded p-5 rounded">
             <p class="mb-0">An optional place to put some follow-up text if needed.</p>
@@ -155,7 +157,76 @@ layout: page
     </div>
   </section>
 
-<!-- Guide - the introductory/overview box -->
+
+<!-- ****** -->
+<!-- Demonstrate-Alternate - tabs - provide at least two annotated examples - can be slideshow, h5p, ... -->
+<!-- ****** -->
+  <section class="page-section">
+    <div class="container">
+      <div class="product-item">
+        <div class="product-item-title d-flex">
+          <div class="bg-faded p-5 d-flex mr-auto rounded"><!-- change to ml-auto to push right -->
+            <h2 class="section-heading mb-0">
+              <span class="section-heading-upper">Demonstrate with Tabs</span>
+              <span class="section-heading-lower">Annotated examples</span>
+            </h2>
+          </div>
+        </div>
+          <!-- tab card -->
+
+                <div class="row justify-content-center mt-5 mb-5">
+                    <div class="col-12 col-sm-12 col-md-11 col-lg-10">
+                        <div class="card">
+                            <div class="card-header">
+                                <ul class="nav nav-tabs card-header-tabs" id="tabcardbox" role="tablist">
+                                    <li class="nav-item"> <a class="nav-link active" href="#example1" role="tab" aria-controls="description" aria-selected="true">Example #1</a> </li>
+                                    <li class="nav-item"> <a class="nav-link" href="#example2" role="tab" aria-controls="history" aria-selected="false">Example #2</a> </li>
+                                    <li class="nav-item"> <a class="nav-link" href="#example3" role="tab" aria-controls="deals" aria-selected="false">Example #3</a> </li>
+                                </ul>
+                            </div>
+                            <div class="card-body">
+                                <!-- if you include something here it will be at the top of all tabs -->
+                                <div class="tab-content mt-3">
+                                    <div class="tab-pane active" id="example1" role="tabpanel">
+                                        <h4 class="card-title">Title of example 1</h4>
+                                        <h6 class="card-subtitle mb-2">Credit / background info for example</h6>
+                                            <!-- h5p embed -->
+                                            <div class="row justify-content-center">
+                                                <div class="col col-sm-12 col-md-10 col-lg-8 col-xl-6">
+                                                    <iframe src="https://ccle.ucla.edu/mod/hvp/embed.php?id=2472053" width="100%" frameborder="1" allowfullscreen="allowfullscreen"></iframe>
+                                                    <script src="https://ccle.ucla.edu/mod/hvp/library/js/h5p-resizer.js" charset="UTF-8"></script>
+                                                </div>
+                                            </div>
+                                        <p class="card-text">Example 1 follow-up text</p>
+                                    </div>
+                                    <div class="tab-pane" id="example2" role="tabpanel" aria-labelledby="example2-tab">
+                                        <h4 class="card-title">Title of example 2</h4>
+                                        <h6 class="card-subtitle mb-2">Credit / background info for example</h6>
+                                        <p class="card-text">Example 2</p></div>
+                                    <div class="tab-pane" id="example3" role="tabpanel" aria-labelledby="example3-tab">
+                                        <h4 class="card-title">Title of example 1</h4>
+                                        <h6 class="card-subtitle mb-2">Credit / background info for example</h6>
+                                        <p class="card-text">Example 3</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+          <!-- /tab card -->
+        <div class="product-item-description d-flex mr-auto">
+          <div class="bg-faded p-5 rounded">
+            <p class="mb-0">An optional place to put some follow-up text if needed.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- ****** -->
+<!-- Guide & Enable - the introductory/overview box -->
+<!-- ****** -->
   <section class="page-section">
     <div class="container">
       <div class="product-item">
@@ -163,18 +234,21 @@ layout: page
           <div class="bg-faded p-5 d-flex mr-auto rounded"><!-- change to ml-auto to push right -->
             <div class="section-heading mb-0">
               <h2 class="mb-0">
-                  <span class="section-heading-upper">Guide</span>
+                  <span class="section-heading-upper">Guide &amp; Enable</span>
                   <span class="section-heading-lower">Provide tips &amp; strategies</span>
               </h2>
               <div class="mt-2" style="text-transform: none">
-                  <p>Offer tips and advice. Highlight common pitfalls and suggest strategies to avoid them. Link to additional resources for help and guidance. Quote experts (both learners and teachers), if that might be helpful.</p>
                   <blockquote>"A compelling quote that offers great advice." - a successful learner</blockquote>
+                  <p>Offer tips and advice. Highlight common pitfalls and suggest strategies to avoid them. Link to additional resources for help and guidance. Quote experts (both learners and teachers), if that might be helpful.</p>
+                  
                   <!-- todo:: find better css for quotes - ideally with a photo of person -->
                   <h3>Tips</h3>
                           <ul>
                               <li>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</li>
                               <li>Mercedem aut nummos unde unde extricat, amaras. Quis aute iure reprehenderit in voluptate velit esse.</li>
                           </ul>
+                  <h3>Give it a try!</h3>
+                  <p>Summarize key things about this step. Give encouragement! Maybe provide a self-eval checklist or other useful resource?</p>
                 </div>
             </div>
           </div>
@@ -195,28 +269,6 @@ layout: page
           </div>
         </div>
         -->
-      </div>
-    </div>
-  </section>
-
-
-<!-- Enable - a final box that serves as an encouraging call to action -->
-  <section class="page-section">
-    <div class="container">
-      <div class="product-item">
-        <div class="product-item-title d-flex">
-          <div class="bg-faded p-5 d-flex mr-auto rounded"><!-- change to ml-auto to push right -->
-            <div class="section-heading mb-0">
-              <h2 class="mb-0">
-                  <span class="section-heading-upper">Enable</span>
-                  <span class="section-heading-lower">An encouraging call to action.</span>
-              </h2>
-              <div class="mt-2" style="text-transform: none">
-                  <p>Summarize key things about this step. Give encouragement! Maybe a self-eval checklist?</p>
-                </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </section>
@@ -276,3 +328,5 @@ layout: page
     </div>
 </div>
 <!-- /modals -->
+
+

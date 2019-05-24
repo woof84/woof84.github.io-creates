@@ -72,3 +72,10 @@
         $('[data-toggle="tooltip"]').tooltip();
     });
 </script>
+<!-- some js for tabs -->
+<script>
+$('#tabcardbox a').on('click', function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+</script>
