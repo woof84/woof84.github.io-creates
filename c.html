@@ -70,6 +70,14 @@ layout: page
                               <div class="card-body">
                                 <h3>Draw your concept map</h3>
                                 <p><em>"The concept map helps me organize the background knowledge and makes it easier for my brain to link the concepts through a visualization." - A successful CREATES student</em></p>
+                                  <p>Drawing a concept map helps you visualize the background information and rationale for the experiment. In other words, your concept map will help you:</p>
+                                  <ul>
+                                      <li>identify what was already known before the experiment was conducted</li>
+                                      <li>see how the relationships between these ideas</li>
+                                      <li>and, most importantly, understand why the scientists wanted to conduct the experiment</li>
+                                  </ul>
+                                      
+                                <p>Here's how to do it:</p>
                                   <ol>
                                     <li>Get out a large, blank piece of paper and some pens and pencils.</li>
                                     <li>Start building your concept map by placing one to three of the largest and most general concepts at the top or in the middle of the page.</li>
@@ -191,7 +199,7 @@ layout: page
                   </blockquote>
                   
                   <blockquote class="blockquote">
-                      <p class="mb-0">"The most important thing I look for at this stage is that the background information, or the things  we already know, are linked together in a way that leads to the main scientific problem or question the paper is addressing. Right now we are trying to understand the rationale for why the scientists are going to do the experiments."</p>
+                      <p class="mb-0">"The most important thing I look for at this stage is that the background information, or the things  we already know, are linked together in a way that leads to the main scientific problem or question the paper is addressing. <strong>Right now we are trying to understand the rationale for why the scientists are going to do the experiments.</strong>"</p>
                       <footer class="blockquote-footer">A CREATES teacher.</footer>
                   </blockquote>
                   
@@ -245,6 +253,27 @@ layout: page
       </div>
     </div>
   </section>
+
+<!-- todo:: improve this navigation. Needs to perhaps provide more context about where you are and what is next - especially on mid/large screens. small screen nav could be very minimalist. could be done programatically as an include, perhaps? -->
+<!-- navigation at bottom of page -->
+<section>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a class="page-link" href="{{ 'index.html' | absolute_url }}" aria-label="Previous">
+                    <span aria-hidden="true">&laquo; CREATES home</span>
+                    <span class="sr-only">Previous</span>
+                </a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="{{ 'r/' | absolute_url }}" aria-label="Next">
+                    <span aria-hidden="true">R &raquo;</span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</section>
 
 <!-- ********* -->
 <!-- modals - these pop up to provide more info about each step -->
