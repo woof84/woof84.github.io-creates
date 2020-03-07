@@ -22,7 +22,7 @@ layout: page
                       <!-- Step 1.1 -->
                       <div class="row no-gutters">
                            <div class="col-md-4"><!-- Image -->
-                               <a data-toggle="modal" data-target="#step-1-1-info" href="#"><img src="{{ '/img/te_questions_and_problems.png' | absolute_url }}" class="card-img" alt="placeholder" ></a> 
+                               <a data-toggle="modal" data-target="#step-1-1-info" href="#"><img src="{{ '/img/te_questions_and_problems.png' | absolute_url }}" class="card-img" alt="Abstract representation of paper containing questions and problems with article." ></a> 
                           </div>
                           <div class="col-md-8">
                               <div class="card-body">
@@ -56,7 +56,7 @@ layout: page
                       <!-- Step 1.2 -->
                       <div class="row no-gutters">
                            <div class="col-md-4"><!-- Image -->
-                               <a data-toggle="modal" data-target="#step-1-1-info" href="#"><img src="{{ '/img/placeholder.png' | absolute_url }}" class="card-img" alt="placeholder image"></a>
+                               <a data-toggle="modal" data-target="#step-1-2-info" href="#"><img src="{{ '/img/te_next_experiment.png' | absolute_url }}" class="card-img" alt="Abstract representation of paper with two methods cartoons of new experiments."></a>
                           </div>
                           <div class="col-md-8">
                               <div class="card-body">
@@ -231,3 +231,42 @@ layout: page
       </div>
     </div>
   </section>
+
+<!-- ********* -->
+<!-- modals - these pop up to provide more info about each step -->
+<!-- ********* -->
+<!-- Modal 1.1 - Pop up with more information -->
+<div class="modal fade" id="step-1-1-info" tabindex="-1" role="dialog" aria-labelledby="More information on step 1.1" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">More information on step 1.1</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+            </div>
+            <div class="modal-body"><img src="{{ '/img/te_questions_and_problems.png' | absolute_url }}" class="img-thumbnail img-fluid" alt="Abstract representation of paper containing questions and problems with article." >
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal 1.2 - Pop up with more information -->
+<div class="modal fade" id="step-1-2-info" tabindex="-1" role="dialog" aria-labelledby="More information on step 1.2" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">More information on step 1.2</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+            </div>
+            <div class="modal-body"><img src="{{ '/img/te_next_experiment.png' | absolute_url }}" class="img-thumbnail img-fluid" alt="Abstract representation of paper with two methods cartoons of new experiments.">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /modals -->
+
+
