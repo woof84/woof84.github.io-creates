@@ -7,3 +7,54 @@
     color: grey;
     background-color: moccasin;
 }
+
+
+body {
+  font-family: 'Lora';
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(190, 221, 240, 0.65))), url("../img/bg.jpg");
+  background: linear-gradient(rgba(190, 221, 240, 0.65)), url("../img/bg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#mainNav {
+  background-color: rgba(9, 86, 133, 0.9);
+  font-family: 'Raleway';
+}
+
+.cta {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: rgba(9, 86, 133, 0.9);
+}
+
+.text-primary {
+  color: #ffffff !important;
+}
+
+.bg-primary {
+  background-color: #ffffff !important;
+}
+
+.footer {
+  background-color: rgba(9, 86, 133, 0.9);
+}
+
+.btn-primary {
+  background-color: #095685;
+  border-color: #095685;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #053e60;
+  border-color: #053e60;
+}
+
+.site-heading {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: 'Raleway';
+}
