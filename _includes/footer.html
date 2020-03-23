@@ -12,47 +12,68 @@
 
 <!-- Footer -->
 <footer class="footer text-faded text-center py-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <ul class="list-inline text-center">
-          {% if site.twitter_username %}
-          <li class="list-inline-item">
-            <a href="https://www.twitter.com/{{ site.twitter_username }}" aria-label="{{ site.title }} Twitter account">
-              <span class="fa-stack fa-2x">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-            </span>
-            </a>
-          </li>
-          {% endif %}
-          {% if site.facebook_username %}
-          <li class="list-inline-item">
-            <a href="https://www.facebook.com/{{ site.facebook_username }}" aria-label="{{ site.title }} Facebook account">
-                <span class="fa-stack fa-2x">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
-            </span>
-            </a>
-          </li>
-          {% endif %}
-          {% if site.github_username %}
-          <li class="list-inline-item">
-            <a href="https://github.com/{{ site.github_username }}" aria-label="{{ site.title }} Github repository">
-              <span class="fa-stack fa-2x">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-            </span>
-            </a>
-          </li>
-          {% endif %}
-        </ul>
-        <p class="copyright text-muted">
-            <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/us/" target="_blank"  aria-label="Creative Commons Attribution-NonCommercial-ShareAlike"><i class="fab fa-creative-commons  fa-3x"></i><i class="fab fa-creative-commons-by fa-3x"></i><i class="fab fa-creative-commons-nc fa-3x"></i><i class="fab fa-creative-commons-share fa-3x"></i></a><br>
-            All content on this site is Creative Commons Attribution-NonCommercial-ShareAlike by  {{ site.author }} {{ 'now' | date: "%Y" }}</p>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <ul class="list-inline text-center">
+                    <li class="list-inline-item">
+                        <a href="https://www.mimg.ucla.edu/laboratory-research-overview/" target="_blank">
+                            <span class="site-heading-lower">MIMG Research <br>Immersion Labs</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.library.ucla.edu/" target="_blank">
+                            <img src="{{ '/img/UCLA_Library_Logo.png' | absolute_url }}" alt="UCLA Library Logo" height="30%" width="30%">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center mx-auto">
+                <a href="https://uclalibrary.github.io/research-tips/" target="_blank"><img src="{{ '/img/WIRE_logo.jpg' | absolute_url }}" height="50" width="110" alt="UCLA WI+RE (Writing Instruction and Research Education) Logo"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <ul class="list-inline text-center">
+                    {% if site.twitter_username %}
+                    <li class="list-inline-item">
+                        <a href="https://www.twitter.com/{{ site.twitter_username }}" aria-label="{{ site.title }} Twitter account">
+                            <span class="fa-stack fa-2x">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if site.facebook_username %}
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/{{ site.facebook_username }}" aria-label="{{ site.title }} Facebook account">
+                            <span class="fa-stack fa-2x">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if site.github_username %}
+                    <li class="list-inline-item">
+                        <a href="https://github.com/{{ site.github_username }}" aria-label="{{ site.title }} Github repository">
+                            <span class="fa-stack fa-2x">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {% endif %}
+                </ul>
+                <p class="copyright text-muted">
+                    <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/us/" target="_blank" aria-label="Creative Commons Attribution-NonCommercial-ShareAlike"><i class="fab fa-creative-commons  fa-3x"></i><i class="fab fa-creative-commons-by fa-3x"></i><i class="fab fa-creative-commons-nc fa-3x"></i><i class="fab fa-creative-commons-share fa-3x"></i></a><br>
+                    All content on this site is Creative Commons Attribution-NonCommercial-ShareAlike by {{ site.author }} {{ 'now' | date: "%Y" }}</p>
+            </div>
+        </div>
     </div>
-  </div>
 </footer>
 
 <!-- Bootstrap core JavaScript -->
@@ -68,14 +89,16 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <!-- initialize tooltip -->
 <script>
-    $(document).ready(function(){
+    $(document).ready(function() {
         $('[data-toggle="tooltip"]').tooltip();
     });
+
 </script>
 <!-- some js for tabs -->
 <script>
-$('#tabcardbox a').on('click', function (e) {
-  e.preventDefault()
-  $(this).tab('show')
-})
+    $('#tabcardbox a').on('click', function(e) {
+        e.preventDefault()
+        $(this).tab('show')
+    })
+
 </script>
