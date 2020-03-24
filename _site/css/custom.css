@@ -71,3 +71,7 @@ body {
   line-height: 4rem;
   color: #000000
 }
+
+#mainNav .navbar-brand {
+  color: #ffffff;
+}
