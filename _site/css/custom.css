@@ -75,3 +75,26 @@ body {
 #mainNav .navbar-brand {
   color: #ffffff;
 }
+
+
+.border-right.border-md {
+  border-right-width:0!important;
+}
+    
+@media (min-width: 768px) {
+  .border-right.border-md {
+    border-right-width:1px!important;
+  }
+}
+
+.border-top.border-md {
+  border-top-width:1px!important;
+  padding-top:20px!important;
+}
+    
+@media (min-width: 768px) {
+  .border-top.border-md {
+    border-top-width:0!important;
+    padding-top:0!important;
+  }
+}
