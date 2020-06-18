@@ -20,31 +20,3 @@
     border-color: darken($primary, 10%);
   }
 }
-
-//Testing if this fixes lines
-
-.font-weight-light {
-  font-weight: 100 !important;
-}
-
-.border-right.border-md {
-  border-right-width:0!important;
-}
-    
-@media (min-width: 768px) {
-  .border-right.border-md {
-    border-right-width:1px!important;
-  }
-}
-
-.border-top.border-md {
-  border-top-width:1px!important;
-  padding-top:20px!important;
-}
-    
-@media (min-width: 768px) {
-  .border-top.border-md {
-    border-top-width:0!important;
-    padding-top:0!important;
-  }
-}
