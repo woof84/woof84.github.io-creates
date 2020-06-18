@@ -77,6 +77,7 @@ body {
 }
 
 
+/*
 .border-right.border-md {
   border-right-width:0!important;
 }
@@ -98,6 +99,7 @@ body {
     padding-top:0!important;
   }
 }
+*/
 
 .card-header .fa {
   transition: .3s transform ease-in-out;
